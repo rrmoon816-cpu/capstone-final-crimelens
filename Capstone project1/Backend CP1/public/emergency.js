@@ -1,0 +1,1 @@
+console.log("Emergency Page Loaded Successfully");
