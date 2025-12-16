@@ -1,0 +1,29 @@
+{
+    "name": "crimelens",
+    "version": "1.0.0",
+    "description": "A web application for visualizing crime data.",
+    "homepage": "https://github.com/rrmoon816-cpu/Backend-CP1#readme",
+    "bugs": {
+        "url": "https://github.com/rrmoon816-cpu/Backend-CP1/issues"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/rrmoon816-cpu/Backend-CP1.git"
+    },
+    "license": "ISC",
+    "author": "Rishav Raj",
+    "type": "module",
+    "main": "index.js",
+    "scripts": {
+        "start": "node Backend/src/index.js",
+        "dev": "nodemon Backend/src/index.js"
+    },
+    "dependencies": {
+        "bcrypt": "^6.0.0",
+        "cors": "^2.8.5",
+        "dotenv": "^17.2.3",
+        "express": "^4.22.1",
+        "mongoose": "^7.8.8",
+        "nodemon": "^3.1.11"
+    }
+}
